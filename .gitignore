@@ -1,0 +1,31 @@
+# === NEVER COMMIT ===
+# Browsers & secrets
+google-chrome/
+BraveSoftware/
+mozilla/
+gh/
+GitHub\ Desktop/
+
+# Keyrings / auth
+kwalletrc
+dconf/
+pulse/
+
+# Package managers / caches
+yay/
+procps/
+.cache/
+
+# App state
+spotify/
+spicetify/
+vlc/
+
+# System-generated
+.local/share/*
+!.local/share/fonts
+!.local/share/icons
+!.local/share/themes
+
+# Logs
+*.log
