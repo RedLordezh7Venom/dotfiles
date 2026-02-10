@@ -1,0 +1,66 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "2ed08aa2ef89ab50843599d99be0307cfe921fa1a8fae4cf881b72b563322b59",
+    "telemetry.devDeviceId": "6372bd29-cbdd-4810-aaaa-53451f9d0dc5",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1770485300051"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1770485300051": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#191919",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#191919",
+            "editorBackground": "#191919",
+            "titleBarBackground": "#191919",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#1a1a1a",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#1a1a1a",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#191919",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#191919",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 60,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/provet/.config/Code - OSS/Backups/1770485300051",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 400,
+                "height": 548,
+                "zoomLevel": -3
+            }
+        },
+        "openedWindows": []
+    }
+}
