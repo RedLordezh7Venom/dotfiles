@@ -1,0 +1,29 @@
+/* Hyprland Cyan Blue Theme with Turquoise Glow */
+
+@define-color turquoise-glow  #00CED1; /* Specific turquoise hue */
+@define-color main-bg       #0A0E1A; /* Deep dark blue */
+@define-color main-fg       #E0FFFF; /* Light cyan foreground */
+@define-color accent        #00BFFF; /* Vibrant blue accent */
+@define-color main-br       #00CEDB; /* Brighter turquoise for borders */
+@define-color hover-bg      #1A2533; /* Slightly lighter dark blue for hover */
+@define-color hover-fg      #C0FFFF; /* Very light cyan for hover foreground */
+@define-color outline       shade(@main-bg, 0.8);
+
+/* module colors */
+
+@define-color workspaces    @main-bg;
+@define-color temperature   @hover-bg;
+@define-color memory        @main-bg;
+@define-color cpu           @hover-bg;
+@define-color time          @main-bg;
+@define-color date          @hover-bg;
+@define-color tray          @main-bg;
+@define-color volume        @hover-bg;
+@define-color backlight     @main-bg;
+@define-color battery       @hover-bg;
+
+/* state colors */
+
+@define-color warning       #EBCB8B; /* Nord yellow (kept) */
+@define-color critical      #BF616A; /* Nord red (kept) */
+@define-color charging      #A3BE8C; /* Nord green (kept) */
