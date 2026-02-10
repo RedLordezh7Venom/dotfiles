@@ -1,5 +1,0 @@
-[Unit]
-Description=Battery notification check
-
-[Service]
-ExecStart=%h/.local/bin/battery-notify.sh
