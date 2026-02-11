@@ -9,6 +9,7 @@
     margin: auto;
     padding: 10px;
     border-radius: 20px;
+    border: none;
 }
 
 #input {
@@ -37,3 +38,6 @@
 
 #text {
     margin: 2px;
+
+mkdir -p ~/.config/wofi
+nano ~/.config/wofi/style.css
