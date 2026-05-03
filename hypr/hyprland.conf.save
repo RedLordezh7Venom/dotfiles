@@ -23,7 +23,7 @@ env = WLR_DRM_DEVICES,/dev/dri/card0
 ################
 
 # See https://wiki.hypr.land/Configuring/Monitors/
-monitor=eDP-1,1920x1080@60,auto,1
+monitor=eDP-1,preferred,auto,1
 
 ###################
 ### MY PROGRAMS ###
@@ -49,7 +49,7 @@ $menu = wofi --show drun
 # exec-once = nm-applet &
 exec-once = waybar # & hyprpaper & firefox
 exec-once = gnome-keyring-daemon --start --components=secrets
-exec-once = ~/.config/waybar/scripts/autohide_toggle.sh &
+
 
 #############################
 ### ENVIRONMENT VARIABLES ###
@@ -86,8 +86,8 @@ env = HYPRCURSOR_SIZE,24
 
 # https://wiki.hypr.land/Configuring/Variables/#general
 general {
-    gaps_in = 1
-    gaps_out = 1
+    gaps_in = 2
+    gaps_out = 5
 
     border_size = 1
 
@@ -106,12 +106,12 @@ general {
 
 # https://wiki.hypr.land/Configuring/Variables/#decoration
 decoration {
-    rounding = 9
-    rounding_power = 11
+    rounding = 15
+    rounding_power = 12
 
     # Change transparency of focused and unfocused windows
     active_opacity = 1.0
-    inactive_opacity = 0.93
+    inactive_opacity = 0.95
 
     shadow {
         enabled = true
@@ -218,7 +218,7 @@ input {
 
     follow_mouse = 1
 
-    sensitivity = 1.0 # -1.0 - 1.0, 0 means no modification.
+    sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
 
     touchpad {
         natural_scroll = false

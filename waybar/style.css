@@ -13,20 +13,25 @@
 @import "styles/states.css";
 
 .module {
-	margin-bottom: -1px;
+	margin-bottom: 0;
 }
 
 window#waybar {
 	background-color: transparent;
-	border: 2px solid @turquoise-glow;
+	border: none;
 	border-radius: 16px;
-	box-shadow: 0 0 15px 5px @turquoise-glow;
-	opacity: 1; /* Always visible */
+	box-shadow: none;
+	opacity: 1;
+	transition: margin-top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+window#waybar.hidden {
+	margin-top: -38px; /* Adjust this value to your Waybar's height */
+	opacity: 0;
 }
 
 
 #waybar > box {
-	margin: 4px;
 	background-color: @main-bg;
 	border-radius: 12px;
 }

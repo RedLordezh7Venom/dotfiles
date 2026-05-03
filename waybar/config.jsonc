@@ -20,6 +20,7 @@
 		"hyprland/window"
 	],
 	"modules-center": [
+		"custom/autohide",
 		"hyprland/language",
 		"custom/left_div#2",
 		"temperature",
