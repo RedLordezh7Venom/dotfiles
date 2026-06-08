@@ -1,4 +1,5 @@
 My dotfiles for 
-Main : Arch (Hyprland, KDE, Cosmic)
-cachy : CachyOS (Cosmic, Hyprland)
-nix : NixOS (Hyprland)
+
+* Main : Arch (Hyprland, KDE, Cosmic)
+* cachy : CachyOS (Cosmic, Hyprland)
+* nix : NixOS (Hyprland)
