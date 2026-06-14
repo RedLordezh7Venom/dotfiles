@@ -1,9 +1,0 @@
-{
-    "custom/autohide": {
-        "format": "{}",
-        "return-type": "json",
-        "exec": "cat /tmp/waybar_autohide_state.json",
-        "interval": 100,
-        "tooltip": false
-    }
-}
